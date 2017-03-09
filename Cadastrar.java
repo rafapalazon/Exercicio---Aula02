@@ -1,6 +1,8 @@
 import java.awt.event.ActionListener;
 import java.util.Observer;
 
+
+@Test
 abstract class Cadastrar implements Observer
 {
    private Janela cadastro;
@@ -19,7 +21,7 @@ abstract class Cadastrar implements Observer
       rgR = new Rotulo("RG");
       datNascR = new Rotulo ("Data Nasc.");
       empresaR = new Rotulo ("Empresa");
-      horTrabR = new Rotulo ("Hor·rio de Trabalho");
+      horTrabR = new Rotulo ("Hor√°rio de Trabalho");
       tipContaR = new Rotulo ("Tipo de conta");
       nome = new CaixaDeTexto();
       cpf = new CaixaDeTexto();
@@ -28,7 +30,7 @@ abstract class Cadastrar implements Observer
       empresa = new CaixaDeTexto();
       horTrab = new CaixaDeTexto();
       tipConta = new CaixaDeTexto();
-      //JCheckBox datNasc = new JCheckBox("It·lico");
+      //JCheckBox datNasc = new JCheckBox("It√°lico");
       cadastrar = new Botao("Cadastrar");
       cancelar = new Botao("Cancelar");
       cadastro.getContentPane().add(nomeR);
