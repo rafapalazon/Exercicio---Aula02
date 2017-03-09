@@ -1,7 +1,9 @@
 import javax.swing.*;
+
+@Test
 public class TesteLogin
 {
-// Método Principal
+// MÃ©todo Principal
    public static void main(String args[])
    {
       // Instancia um objeto de Exemplo
